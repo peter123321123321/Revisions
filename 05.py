@@ -28,7 +28,7 @@ while True:
         elif mark == range(60, 64):
             mark = "C+"
 
-    students.append(name, mark)
+    students.append([name, mark])
     average_mark.append(mark)
     if mark >= best_mark:
         best_mark = mark
